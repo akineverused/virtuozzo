@@ -1,0 +1,22 @@
+.wrap{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  > :first-child{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    color: #22232B;
+  }
+
+  img{
+    width: 20px;
+    height: auto;
+  }
+}
